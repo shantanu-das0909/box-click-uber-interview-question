@@ -1,0 +1,19 @@
+.box-container {
+  width: max-content;
+  height: max-content;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.box {
+  height: 4rem;
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: background-color 500ms ease-out;
+}
+
+.clicked-box {
+  background-color: green;
+}
